@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// Variables
+@import "variables";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  height: 90vh !important;
+  width: 100vw;
+}
+.carousel-item img {
+  filter: brightness(40%)
+}

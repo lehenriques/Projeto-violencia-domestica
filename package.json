@@ -1,0 +1,36 @@
+{
+  "name": "violencia-domestica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch --recursive --output public/css scss",
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMelnik/violencia-domestica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMelnik/violencia-domestica/issues"
+  },
+  "homepage": "https://github.com/LucasMelnik/violencia-domestica#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-mix": "^3.0.0"
+  }
+}
