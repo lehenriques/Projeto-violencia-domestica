@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2, minimum-scale=1">
+
+    <title>Violência Doméstica</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta content="A Central de Atendimento à Mulher – Ligue 180 presta uma escuta e acolhida qualificada às mulheres em situação de violência.">
+    <meta name="keywords"
+          content="Violência, Doméstica, Denuncia, ligue 180, situação de violência, atendimento à mulher">
+
+    <!-- facebook integration -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Violência Doméstica">
+    <meta property="og:image"
+          content="https://www.tjrs.jus.br/novo/violencia-domestica/wp-content/uploads/sites/7/2020/05/close-up-photo-of-woman-with-her-hands-tied-with-rope-1435441.jpg">
+    <meta property="og:image:secure_url"
+          content="https://www.tjrs.jus.br/novo/violencia-domestica/wp-content/uploads/sites/7/2020/05/close-up-photo-of-woman-with-her-hands-tied-with-rope-1435441.jpg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="400">
+    <meta property="og:url" content="https://localhost.com">
+    <meta property="og:site_name" content="Violência Doméstica">
+    <meta property="og:description" content="Violência Doméstica">
+
+    <!-- twitter integration -->
+    <meta name="twitter:title" content="Violência Doméstica">
+    <meta name="twitter:image"
+          content="https://www.tjrs.jus.br/novo/violencia-domestica/wp-content/uploads/sites/7/2020/05/close-up-photo-of-woman-with-her-hands-tied-with-rope-1435441.jpg">
+    <meta name="twitter:url" content="https://localhost.com">
+    <meta name="twitter:card" content="summary">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3">
+    <div class="container">
+        <a class="navbar-brand text-primary" href="#">Juntos contra a Violência Doméstica</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="relatos.html">Relatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ajuda.html">Prucurar Ajuda</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-primary">
+    <h1 class="mt-5 text-center">Contato</h1>
+
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+            <p class="pt-3">
+                Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.<br/>
+                Não se preocupe seus dados não serão divulgados junto com o seu depoimento.<br/>
+                Envie seu depoimento.
+            </p>
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nome</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">E-mail</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Assunto</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                          class="form-control md-textarea"></textarea>
+                            <label for="message">Mensagem</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form pl-4 pb-3">
+                            <input type="checkbox" class="form-check-input" id="aceito" name="aceito">
+                            <label class="form-check-label" for="exampleCheck1">Aceito publicar meu depoimento</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="text-right">
+                <!--                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>-->
+                <a class="btn btn-primary" onclick="validateForm();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p class="mb-0">CRAS NORTE – (45) 3901-3268</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p class="mb-0">CRAS NORDESTE – (45) 3901-3271</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p class="mb-0">CRAS LESTE – (45) 3901-3273</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p class="mb-0">CRAS OESTE – (45) 3527-7206</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p class="mb-0">CRAS SUL – (45) 3901-3260</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer font-small bg-primary text-primary-2 mt-5">
+    <div class="bg-primary-2">
+        <div class="container">
+            <div class="row py-4 d-flex align-items-center">
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <h6 class="mb-0 text-primary">Conecte-se conosco nas redes sociais!</h6>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f white-text mr-4"> </i>
+                    </a>
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter white-text mr-4"> </i>
+                    </a>
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                    </a>
+                    <a class="ins-ic">
+                        <i class="fab fa-instagram white-text"> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center text-md-left mt-5">
+        <div class="row mt-3">
+            <div class="col-md-6 col-lg-7 col-xl-7 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">COMO PROCURAR AJUDA?</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no gênero
+                    mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.</p>
+                <p>
+                    Para denunciar, você pode:<br/>
+                    Entrar em contato com o serviço de informações e denúncia da Central de Atendimento a Mulher,
+                    ligando no 180.<br/>
+                    Em casos de emergência, é necessário ligar para a polícia no número 190.<br/>
+                    Para contatar o que se pode dizer um “pronto socorro” dos direitos humanos, que atentem casos de
+                    violação dos mesmos, disque 100.<br/>
+                    O CRAS atende a população em situação de risco e vulnerabilidade social e promove o acesso aos
+                    direitos e o fortalecimento dos vínculos familiares.
+                </p>
+
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase font-weight-bold">ONDE PROCURAR AJUDA?</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>Foz do Iguaçu</p>
+                <p>CRAS NORTE <i class="fas fa-phone ml-3"></i> (45) 3901-3268</p>
+                <p>CRAS NORDESTE <i class="fas fa-phone ml-3"></i> (45) 3901-3271</p>
+                <p>CRAS LESTE <i class="fas fa-phone ml-3"></i> (45) 3901-3273</p>
+                <p>CRAS OESTE <i class="fas fa-phone ml-3"></i> (45) 3527-7206</p>
+                <p>CRAS SUL <i class="fas fa-phone ml-3"></i> (45) 3901-3260</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3 text-primary-2">© 2020 Copyright</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/contato.js"></script>
+<script>
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/js/all.min.js"></script>
+</body>
+</html>
