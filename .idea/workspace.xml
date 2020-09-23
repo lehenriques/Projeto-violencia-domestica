@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863a9440-3882-4701-be97-823fdcde02e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <workItem from="1598354486381" duration="13375000" />
       <workItem from="1598372021714" duration="6722000" />
       <workItem from="1598442791602" duration="8118000" />
-      <workItem from="1600861385994" duration="1929000" />
+      <workItem from="1600861385994" duration="2419000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor: Dando uma nova cara para a home do site">
       <created>1598376942115</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600863221156</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="alterando readme no projeto">
+      <created>1600863376101</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600863376101</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +167,8 @@
     <MESSAGE value="Feature: Alterando o link no menu" />
     <MESSAGE value="Feature: Parte de contato" />
     <MESSAGE value="Cadastrando readme no projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cadastrando readme no projeto" />
+    <MESSAGE value="alterando readme no projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="alterando readme no projeto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2147" y="452" width="541" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598364566340">
@@ -174,5 +183,9 @@
       <screen x="1440" y="97" width="1920" height="1080" />
     </state>
     <state x="1912" y="285" width="1022" height="737" key="SettingsEditor/1440.97.1920.1080/0.124.1440.776@1440.97.1920.1080" timestamp="1598448412657" />
+    <state x="1858" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600863382285">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1858" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.56.1280.1024@1280.0.1920.1080" timestamp="1600863382285" />
   </component>
 </project>

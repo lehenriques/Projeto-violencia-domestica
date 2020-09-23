@@ -44,7 +44,7 @@ npm install
 
 ## Resolvendo Problemas :exclamation:
 
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+Em [issues](https://github.com/lehenriques/Projeto-violencia-domestica/issues) foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
 
 ## Tarefas em aberto
 
@@ -59,6 +59,6 @@ Time responsável pelo desenvolvimento do projeto
 
 ## Licença 
 
-The [MIT License]() (MIT)
+The [MIT License](https://github.com/lehenriques/Projeto-violencia-domestica) (MIT)
 
 Copyright :copyright: 2020 - Plataforma de Combate à Violência Doméstica
