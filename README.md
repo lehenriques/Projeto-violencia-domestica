@@ -52,7 +52,7 @@ Dudante as atividades em salas estão sendo feito o levantamento das tarefas.
 
 ## Desenvolvedores/Contribuintes :octocat:
 
-Liste o time responsável pelo desenvolvimento do projeto
+Time responsável pelo desenvolvimento do projeto
 
 | [<img src="https://avatars2.githubusercontent.com/u/70181734?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Eric Sacardo</sub>](https://github.com/EricSacardo) | [<img src="https://avatars2.githubusercontent.com/u/13022858?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Leandro Henriques</sub>](https://github.com/lehenriques) |  [<img src="https://avatars2.githubusercontent.com/u/69543063?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Lucas Melnik</sub>](https://github.com/LucasMelnik) |  [<img src="https://avatars2.githubusercontent.com/u/71674891?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Ruiva 0909</sub>](https://github.com/Ruiva0909) |
 | :---: | :---: | :---: | :---:

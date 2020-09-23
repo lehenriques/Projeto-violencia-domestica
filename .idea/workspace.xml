@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863a9440-3882-4701-be97-823fdcde02e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <workItem from="1598354486381" duration="13375000" />
       <workItem from="1598372021714" duration="6722000" />
       <workItem from="1598442791602" duration="8118000" />
-      <workItem from="1600861385994" duration="1813000" />
+      <workItem from="1600861385994" duration="1929000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor: Dando uma nova cara para a home do site">
       <created>1598376942115</created>
@@ -129,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598450849582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cadastrando readme no projeto">
+      <created>1600863221156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600863221156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +158,8 @@
     <MESSAGE value="Feature: Criando a pagina de ajuda" />
     <MESSAGE value="Feature: Alterando o link no menu" />
     <MESSAGE value="Feature: Parte de contato" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Parte de contato" />
+    <MESSAGE value="Cadastrando readme no projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cadastrando readme no projeto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2147" y="452" width="541" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598364566340">
